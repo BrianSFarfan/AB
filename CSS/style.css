@@ -8,7 +8,6 @@ body{
     background-attachment: fixed;
     margin: auto;
     max-width: 500px;
-
 }
 
 #step1,#step2,#step3,#step4{
@@ -79,7 +78,45 @@ body{
 }
 
 
-.buttonAlone button,.buttonGroup button{
+
+#step6{
+    top: 0;
+    padding: 0;
+    margin: 0;
+    color: white;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    backdrop-filter: blur(15px);
+}
+
+
+
+/* .finGrupo{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+
+    max-width: 300px;
+}
+
+
+
+#noQuiero{
+    
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    margin-top: 20px;
+    transform: translate(-50%, -50px);
+} */
+
+.buttonAlone button,.buttonGroup button , .finGrupo button{
     width: 200px;
     padding: 10px;
     margin: 5px;
@@ -131,3 +168,5 @@ body{
     height: 42vh;
     text-align: left;
   }
+
+#
