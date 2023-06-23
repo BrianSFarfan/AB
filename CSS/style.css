@@ -100,7 +100,7 @@ body{
 .fontwow{
     margin-left: 4px;
     font-weight: 500;
-    background: linear-gradient(rgb(3, 3, 255),rgb(146, 26, 206));
+    background: linear-gradient(-45deg,rgb(3, 3, 255),rgb(146, 26, 206));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
