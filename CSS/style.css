@@ -128,4 +128,5 @@ body{
   .scrolling{
     overflow: auto;
     height: 200px;
+    text-align: left;
   }
