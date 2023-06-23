@@ -124,3 +124,8 @@ body{
     height: 100%;
     border-radius: 50px;
   }
+
+  .scrolling{
+    overflow: auto;
+    height: 200px;
+  }
