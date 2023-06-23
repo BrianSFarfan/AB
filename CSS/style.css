@@ -78,6 +78,7 @@ body{
     transition: 0.5s,opacity 0.5s, display 0s 0.5s;
 }
 
+
 .buttonAlone button,.buttonGroup button{
     width: 200px;
     padding: 10px;

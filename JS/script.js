@@ -70,3 +70,31 @@ boton4.onclick = function() {
       vista5.style.display = "block";
     }, 1500); // 1000 ms = 1 segundo
   };
+
+/*------*/
+  var boton = document.getElementById("boton");
+  var anchoPantalla = window.innerWidth;
+  var altoPantalla = window.innerHeight;
+  
+  // Función para generar una posición aleatoria dentro de la pantalla
+  function generarPosicion() {
+
+    
+    var posicionX = Math.random() * (anchoPantalla - boton.offsetWidth);
+    var posicionY = Math.random() * (altoPantalla - boton.offsetHeight);
+    
+    boton.style.left = posicionX + "px";
+    boton.style.top = posicionY + "px";
+    vista3.style.position = "absolute";
+  }
+  
+  // Función para manejar el clic en el botón
+  function clicBoton() {
+    generarPosicion();
+  }
+  
+  // Agrega el evento onclick al botón
+  boton.onclick = clicBoton;
+  
+  // Genera la primera posición aleatoria al cargar la página
+  generarPosicion();
